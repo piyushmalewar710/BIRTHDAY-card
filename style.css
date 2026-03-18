@@ -1,0 +1,100 @@
+body{
+    color: white;
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.main-bk{
+    z-index: -1;
+    width: 100%;
+    height:330cap;
+    display: flex;
+    align-items: stretch;
+}
+.back1{
+    width: 25%;
+    background: linear-gradient(#a2d2ff,#efb0c9);
+}
+.back2{
+    width: 25%;
+    background: linear-gradient(#efb0c9,#a2d2ff);
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+}
+#bb{
+    width: 150px;
+    border: 6px solid #efb0c9;
+    border-radius: 50%;
+    box-shadow: 0 4px 20px black;
+}
+h1{
+    text-shadow: 0 0 8px black;
+}
+#txt{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #e69eef;
+    padding: 10px 12px;
+    text-shadow: 0 0 3px black;
+    border-radius: 5px;
+}
+.gift-section{
+    margin-top: 30px;
+}
+#gift-head{
+    text-shadow: 0 0 8px black;
+}
+.gift-box{
+    width: 580px;
+    height: 500px;
+    background-image: url("image.png");
+    background-size: cover;
+    border: 10px solid 
+    #ffffff;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.last-gift{
+    width: 580px;
+    height: 330px;
+    background-image: url("image.png");
+    background-size: cover;
+    background-position:top;
+    border: 10px solid 
+    #ffffff;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+#first:hover{
+    background-image: url("firsr.gif");
+    background-position: center;
+}
+#second:hover{
+    background-image: url("second.gif");
+    background-position: center;
+}
+#third:hover{
+    background-image: url("fourth.gif");
+    background-position: center;
+}
+#fourth:hover{
+    background-image: url("third.gif");
+    background-position: center;
+}
+#fourth:hover{
+    background-image: url("third.gif");
+    background-position: center;
+}
+#last:hover{
+    background-image: url("last.gif");
+    background-position: center;
+}
